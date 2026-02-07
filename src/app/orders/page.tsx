@@ -296,7 +296,7 @@ export default function OrderHistoryPage() {
                     </tr>
                   </thead>
                   <tbody>
-                    {orders.map((order, index) => (
+                    {orders.map((order) => (
                       <tr
                         key={order.id}
                         className="bg-white dark:bg-[#1e2a36] hover:bg-gray-50 dark:hover:bg-[#253240] transition-colors group"

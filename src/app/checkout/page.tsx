@@ -22,7 +22,6 @@ export default function CheckoutPage() {
     handleSubmit,
     formState: { errors },
     setValue,
-    watchhhhhhh,
   } = useForm<CheckoutFormValues>({
     resolver: zodResolver(checkoutFormSchema),
     defaultValues: {

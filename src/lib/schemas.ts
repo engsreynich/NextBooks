@@ -19,9 +19,7 @@ export const checkoutFormSchema = z.object({
   zip: z.string().regex(/^\d{5}(-\d{4})?$/, {
     message: 'Please enter a valid ZIP code.',
   }),
-  paymentMethod: z.enum(['cod', 'card'], {
-    required_error: 'Please select a payment method.',
-  }),
+  paymentMethod: z.enum(['cod', 'card']),
 });
 
 export type CheckoutFormValues = z.infer<typeof checkoutFormSchema>;

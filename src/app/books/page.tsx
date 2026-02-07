@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { useState } from 'react';
 
@@ -431,7 +430,7 @@ export default function BookDetailPage() {
                     </div>
                     <p className="text-[#617589] text-sm leading-normal">
                       I absolutely loved this book. It made me reflect on my own life choices in a
-                      way that wasn't heavy or depressing, but uplifting. Highly recommend for
+                      way that wasn&apos;t heavy or depressing, but uplifting. Highly recommend for
                       anyone feeling stuck.
                     </p>
                     <p className="text-[#111418] text-xs font-medium">Sarah J.</p>
