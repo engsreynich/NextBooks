@@ -70,73 +70,7 @@ export default function ShoppingCartPage() {
 
   return (
     <div className="bg-white dark:bg-[#101922] text-[#111418] font-display min-h-screen flex flex-col">
-      {/* Header */}
-      <header className="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#e5e7eb] bg-white/95 backdrop-blur px-6 py-3 lg:px-10">
-        <div className="flex items-center gap-8">
-          <div className="flex items-center gap-4 text-[#111418]">
-            <div className="size-8 text-primary flex items-center justify-center">
-              <span className="material-symbols-outlined text-3xl">auto_stories</span>
-            </div>
-            <h2 className="text-[#111418] text-xl font-bold leading-tight tracking-[-0.015em]">
-              BookNow
-            </h2>
-          </div>
-          <div className="hidden lg:flex items-center gap-9">
-            <Link
-              className="text-[#111418] text-sm font-medium hover:text-primary transition-colors leading-normal"
-              href="#"
-            >
-              Home
-            </Link>
-            <Link
-              className="text-[#111418] text-sm font-medium hover:text-primary transition-colors leading-normal"
-              href="#"
-            >
-              Best Sellers
-            </Link>
-            <Link
-              className="text-[#111418] text-sm font-medium hover:text-primary transition-colors leading-normal"
-              href="#"
-            >
-              New Arrivals
-            </Link>
-            <Link
-              className="text-[#111418] text-sm font-medium hover:text-primary transition-colors leading-normal"
-              href="#"
-            >
-              Fiction
-            </Link>
-            <Link
-              className="text-[#111418] text-sm font-medium hover:text-primary transition-colors leading-normal"
-              href="#"
-            >
-              Non-Fiction
-            </Link>
-          </div>
-        </div>
-        <div className="flex flex-1 justify-end gap-6 items-center">
-          <label className="hidden md:flex flex-col min-w-40 !h-10 max-w-64">
-            <div className="flex w-full flex-1 items-stretch rounded-full h-full border border-[#e5e7eb] overflow-hidden">
-              <div className="text-[#6b7280] flex border-none bg-white items-center justify-center pl-4 border-r-0">
-                <span className="material-symbols-outlined text-[20px]">search</span>
-              </div>
-              <input
-                className="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden text-[#111418] focus:outline-0 focus:ring-0 border-none bg-white focus:border-none h-full placeholder:text-[#6b7280] px-4 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal"
-                placeholder="Search books..."
-              />
-            </div>
-          </label>
-          <button className="relative flex items-center justify-center rounded-full size-10 bg-white border border-[#e5e7eb] hover:bg-gray-50 text-[#111418] transition-colors">
-            <span className="material-symbols-outlined text-[24px]">shopping_cart</span>
-            <span className="absolute -top-1 -right-1 flex h-4 w-4 items-center justify-center rounded-full bg-primary text-[10px] font-bold text-white">
-              {cartItems.length}
-            </span>
-          </button>
-          <button className="lg:hidden flex items-center justify-center rounded-full size-10 bg-white border border-[#e5e7eb] text-[#111418]">
-            <span className="material-symbols-outlined">menu</span>
-          </button>
-        </div>
-      </header>
+     
 
       {/* Main Content */}
       <main className="flex-1 layout-container flex flex-col">

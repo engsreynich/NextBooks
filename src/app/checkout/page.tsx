@@ -37,25 +37,7 @@ export default function CheckoutPage() {
 
   return (
     <div className="bg-white dark:bg-[#101922] min-h-screen text-[#111418] dark:text-white flex flex-col font-display antialiased selection:bg-primary/20">
-      {/* Header */}
-      <header className="sticky top-0 z-50 w-full border-b border-solid border-[#e5e7eb] dark:border-[#1f2937] bg-white/90 dark:bg-[#101922]/90 backdrop-blur-md">
-        <div className="layout-container flex justify-center w-full">
-          <div className="flex items-center justify-between w-full max-w-7xl px-4 md:px-8 py-4">
-            <div className="flex items-center gap-3">
-              <div className="size-8 text-primary flex items-center justify-center">
-                <span className="material-symbols-outlined text-[32px]">menu_book</span>
-              </div>
-              <h2 className="text-xl font-bold tracking-tight text-[#111418] dark:text-white">
-                BookNow
-              </h2>
-            </div>
-            <div className="flex items-center gap-2 text-sm font-medium text-gray-500 dark:text-gray-400">
-              <span className="material-symbols-outlined text-lg">lock</span>
-              <span className="hidden sm:inline">Secure Checkout</span>
-            </div>
-          </div>
-        </div>
-      </header>
+    
 
       {/* Main Content */}
       <main className="flex-grow w-full max-w-7xl mx-auto px-4 md:px-8 py-8 md:py-12">

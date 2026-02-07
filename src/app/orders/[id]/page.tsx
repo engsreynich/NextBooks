@@ -8,44 +8,7 @@ export default function OrderDetailPage() {
     <div className="bg-white text-[#111418] font-display antialiased">
       <div className="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
         {/* Navigation */}
-        <header className="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f0f2f4] px-4 md:px-10 py-3 bg-white">
-          <div className="flex items-center gap-4 text-[#111418]">
-            <div className="size-8 text-primary flex items-center justify-center">
-              <span className="material-symbols-outlined text-3xl">menu_book</span>
-            </div>
-            <h2 className="text-[#111418] text-xl font-bold leading-tight tracking-tight">
-              BookNow
-            </h2>
-          </div>
-          <div className="hidden md:flex flex-1 justify-end gap-8">
-            <div className="flex items-center gap-9">
-              <Link
-                className="text-[#111418] text-sm font-medium hover:text-primary transition-colors"
-                href="#"
-              >
-                Home
-              </Link>
-              <Link
-                className="text-[#111418] text-sm font-medium hover:text-primary transition-colors"
-                href="#"
-              >
-                My Orders
-              </Link>
-              <Link
-                className="text-[#111418] text-sm font-medium hover:text-primary transition-colors"
-                href="#"
-              >
-                Account
-              </Link>
-            </div>
-            <button className="flex items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f0f2f4] text-[#111418] hover:bg-gray-200 transition-colors gap-2 text-sm font-bold min-w-0 px-3">
-              <span className="material-symbols-outlined text-[20px]">shopping_cart</span>
-            </button>
-          </div>
-          <button className="md:hidden flex items-center justify-center rounded-lg h-10 w-10 bg-[#f0f2f4] text-[#111418]">
-            <span className="material-symbols-outlined">menu</span>
-          </button>
-        </header>
+      
 
         <div className="layout-container flex h-full grow flex-col">
           <div className="px-4 md:px-10 lg:px-20 xl:px-40 flex flex-1 justify-center py-5">
